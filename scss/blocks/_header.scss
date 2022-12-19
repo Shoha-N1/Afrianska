@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    position: relative;
+  }
+
+.navbar ul {
+    padding-top: 30px;
+    margin-left: -282px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 200px;
+    top: -30px;
+    height: 900vh;
+    border: 1px solid #fff;
+    background-color: rgb(71, 71, 71);
+    transform: translateX(-620%);
+    transition: 0.3s ease;
+  }
+  .navbar li {
+    margin-top: 25px;
+  }
+  
+.ulambula li a {
+    text-decoration: none;
+    list-style: none;
+    color: #83888f;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+.ulambula {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.ulambula li {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 10px;
+  width: 120px;
+}
+
+
+
+.hamburger {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 1000px;
+  }
+
+  .hamburger::after, .hamburger::before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 24px;
+    background-color:#356EAD;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+
+  input[type=checkbox]:checked + .navbar ul {
+    transform: translateX(-445%);
+    
+  }

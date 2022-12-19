@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+h2, h3, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  position: relative;
+}
+
+.navbar ul {
+  padding-top: 30px;
+  margin-left: -282px;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 200px;
+  top: -30px;
+  height: 900vh;
+  border: 1px solid #fff;
+  background-color: rgb(71, 71, 71);
+  transform: translateX(-620%);
+  transition: 0.3s ease;
+}
+
+.navbar li {
+  margin-top: 25px;
+}
+
+.ulambula li a {
+  text-decoration: none;
+  list-style: none;
+  color: #83888f;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ulambula {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.ulambula li {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 10px;
+  width: 120px;
+}
+
+.hamburger {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 1000px;
+}
+
+.hamburger::after, .hamburger::before {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 24px;
+  background-color: #356EAD;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked + .navbar ul {
+  transform: translateX(-445%);
+}
+
+.sect-1-big-box {
+  margin-top: 50px;
+  display: flex;
+}
+
+.sect-1-box-1 {
+  margin-top: 50px;
+}
+.sect-1-box-1 h2 {
+  width: 520px;
+  left: 212px;
+  top: 189px;
+  font-family: "Galien";
+  font-size: 52px;
+  line-height: 70px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  color: #1F3F68;
+  font-weight: 600;
+  margin-bottom: 41px;
+}
+
+.sect-1-box-1 p {
+  width: 425px;
+  height: 82px;
+  left: 213px;
+  top: 350px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 29px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-bottom: 64px;
+}
+
+.sect-1-box-1 button {
+  border: 1px solid transparent;
+  width: 190px;
+  height: 42px;
+  left: 213px;
+  top: 522px;
+  background: #599dda;
+  color: white;
+  opacity: 0.8;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  transition: 0.5s ease;
+}
+.sect-1-box-1 button:hover {
+  opacity: 1;
+}
+
+.img-sect-1 svg {
+  width: 679px;
+  height: 557px;
+  margin-top: -10px;
+  margin-left: -1\%px;
+}/*# sourceMappingURL=main.css.map */
