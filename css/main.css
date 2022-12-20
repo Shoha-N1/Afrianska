@@ -38,15 +38,20 @@ h2, h3, h3, h4, p {
   margin-bottom: 10px;
   width: 200px;
   top: -30px;
-  height: 900vh;
+  height: 105vh;
   border: 1px solid #fff;
   background-color: rgb(71, 71, 71);
   transform: translateX(-620%);
   transition: 0.3s ease;
+  border-radius: 2px;
 }
 
 .navbar li {
   margin-top: 25px;
+  margin-left: 10px;
+}
+.navbar li:first-of-type {
+  margin-top: 40px;
 }
 
 .ulambula li a {
@@ -55,6 +60,7 @@ h2, h3, h3, h4, p {
   color: #83888f;
   display: inline-block;
   vertical-align: middle;
+  margin-top: 20px;
 }
 
 .ulambula {
@@ -152,69 +158,79 @@ input[type=checkbox]:checked + .navbar ul {
 }
 
 .sect-2-big-box {
-  margin-top: 50px;
+  margin-top: 250px;
+  margin-bottom: 250px;
 }
 .sect-2-big-box .sect-2-box-1 h2 {
-  width: 360px;
+  width: 380px;
   height: 138px;
-  left: 213px;
-  top: 960px;
   font-family: "Gilroy";
-  font-size: 34px;
+  font-size: 39px;
   line-height: 42px;
   letter-spacing: 1px;
-  word-spacing: 2px;
+  word-spacing: 7px;
   color: #316099;
   font-weight: 600;
+  margin-top: 50px;
 }
-.sect-2-big-box .sect-2-box-card {
+.sect-2-big-box .sect-2-big-box-card {
   width: 300px;
-  height: 425px;
-  left: 773px;
-  top: 960px;
   background: #FFFFFF;
-  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
 }
-.sect-2-big-box .sect-2-box-card svg {
-  width: 190px;
-  height: 190px;
-  margin-left: 49px;
+.sect-2-big-box .sect-2-big-box-card .ola {
+  margin-left: 700px;
 }
-.sect-2-big-box .sect-2-box-card h4 {
-  width: 259px;
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card {
+  margin-top: -140px;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  width: 350px;
+  height: 500px;
+}
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card svg {
+  width: 242px;
+  height: 210px;
+  margin-left: 60px;
+}
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card .savg {
+  margin-left: 40px;
+}
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card h4 {
+  width: 290px;
   height: 60px;
   font-family: "Gilroy";
-  font-size: 17px;
-  line-height: 27px;
+  font-size: 21px;
+  line-height: 32px;
   color: #1F3F68;
   letter-spacing: 0.2px;
-  word-spacing: 0.7px;
-  margin-left: 30px;
-  font-weight: 500;
+  opacity: 0.9;
+  word-spacing: 2px;
+  margin-left: 41px;
+  margin-top: 18px;
+  font-weight: 600;
 }
-.sect-2-big-box .sect-2-box-card p {
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card p {
   width: 250px;
   font-family: "Gilroy";
   font-size: 16px;
-  line-height: 28px;
+  line-height: 29px;
   letter-spacing: 0.2px;
   word-spacing: 0.5px;
   color: #1F3F68;
   opacity: 0.6;
-  margin-left: 30px;
-  margin-top: 7px;
+  margin-left: 42px;
+  margin-top: 19px;
 }
-.sect-2-big-box .sect-2-box-card .linker {
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card .linker {
   display: flex;
 }
-.sect-2-big-box .sect-2-box-card .linker svg {
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card .linker svg {
   width: 16px;
   height: 15px;
-  margin-top: 26px;
-  margin-left: 24px;
+  margin-top: 39px;
+  margin-left: 26px;
 }
-.sect-2-big-box .sect-2-box-card .linker a {
+.sect-2-big-box .sect-2-big-box-card .sect-2-box-card .linker a {
   width: 85px;
   font-family: "Gilroy";
   font-size: 17px;
@@ -222,6 +238,198 @@ input[type=checkbox]:checked + .navbar ul {
   letter-spacing: 0.1px;
   color: #5A98D0;
   text-decoration: none;
-  margin-top: 20px;
-  margin-left: 30px;
+  margin-top: 32px;
+  margin-left: 42px;
+}
+
+.sect-3-bigger-box {
+  margin-top: 300px;
+  margin-bottom: 250px;
+  margin-left: 100px;
+}
+.sect-3-bigger-box .sect-3-box-1 {
+  display: flex;
+}
+.sect-3-bigger-box .sect-3-box-1 h2 {
+  width: 227px;
+  font-family: "Gilroy";
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+}
+.sect-3-bigger-box .sect-3-box-1 p {
+  width: 540px;
+  font-family: "Gilroy";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+  margin-left: 100px;
+}
+.sect-3-bigger-box .sect-3-big-box {
+  margin-top: 110px;
+  width: 982px;
+  height: 525px;
+  background-image: url(./../../img/Offis-img.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.sect-3-bigger-box .sect-3-big-box .olip {
+  background-image: linear-gradient(490deg, #224674, rgba(36, 75, 126, 0.267) 99.82%);
+  opacity: 0.9;
+  width: 940px;
+  height: 418px;
+  position: absolute;
+}
+.sect-3-bigger-box .sect-3-big-box h3 {
+  width: 341px;
+  height: 46px;
+  position: absolute;
+  font-family: "Gilroy";
+  font-size: 27px;
+  line-height: 46px;
+  word-spacing: 2px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  margin-left: 559px;
+  margin-top: 45px;
+}
+.sect-3-bigger-box .sect-3-big-box p {
+  margin-left: 653px;
+  margin-top: 100px;
+  width: 241px;
+  height: 46px;
+  position: absolute;
+  font-family: "Gilroy";
+  font-size: 17px;
+  line-height: 46px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.sect-3-bigger-box .sect-3-big-box div {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-1 {
+  background-color: transparent;
+  border: 4px solid rgb(255, 255, 255);
+  margin-top: 281px;
+  margin-left: -22px;
+  width: 169px;
+  border-radius: 50%;
+  height: 169px;
+  opacity: 0.7;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-1 svg {
+  width: 47px;
+  height: 47px;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .line-1 {
+  position: absolute;
+  margin-top: 231px;
+  margin-left: -32px;
+  width: 175px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: rotate(95deg);
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 3px solid rgb(255, 255, 255);
+  width: 62px;
+  height: 62px;
+  margin-top: -402px;
+  margin-left: 58px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.7;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-2 svg {
+  width: 27px;
+  height: 25px;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .line-2 {
+  position: absolute;
+  margin-top: 99px;
+  margin-left: -62px;
+  width: 63px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: rotate(129deg);
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 3px solid rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+  margin-top: -258px;
+  margin-left: 126px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.7;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-3 svg {
+  width: 35px;
+  height: 35px;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .line-3 {
+  position: absolute;
+  margin-top: 202px;
+  margin-left: -226px;
+  width: 240px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: rotate(141deg);
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 3px solid rgb(255, 255, 255);
+  width: 64px;
+  height: 64px;
+  margin-top: -315px;
+  margin-left: 315px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.7;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-4 svg {
+  width: 24px;
+  height: 24px;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .line-4 {
+  position: absolute;
+  margin-top: 52px;
+  margin-left: -186px;
+  width: 131px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transform: rotate(169deg);
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border: 3px solid rgb(255, 255, 255);
+  width: 64px;
+  height: 64px;
+  margin-top: -134px;
+  margin-left: 267px;
+  border-radius: 50%;
+  background-color: transparent;
+  opacity: 0.7;
+}
+.sect-3-bigger-box .sect-3-big-box div .big-button .btn-5 svg {
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=main.css.map */

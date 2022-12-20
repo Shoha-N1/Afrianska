@@ -13,14 +13,21 @@
     margin-bottom: 10px;
     width: 200px;
     top: -30px;
-    height: 900vh;
+    height: 105vh;
     border: 1px solid #fff;
     background-color: rgb(71, 71, 71);
     transform: translateX(-620%);
     transition: 0.3s ease;
+    border-radius: 2px;
   }
+  
   .navbar li {
     margin-top: 25px;
+    margin-left: 10px;
+
+    &:first-of-type {
+      margin-top: 40px;
+    }
   }
   
 .ulambula li a {
@@ -29,6 +36,7 @@
     color: #83888f;
     display: inline-block;
     vertical-align: middle;
+    margin-top: 20px;
   }
 
 .ulambula {
@@ -36,7 +44,6 @@
   text-decoration: none;
   display: flex;
 }
-
 .ulambula li {
   list-style: none;
   text-decoration: none;
